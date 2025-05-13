@@ -1,0 +1,34 @@
+/* Write your CSS code here */
+.blog-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between;
+  align-items: space-between; */
+  margin: 0px;
+  padding: 30px;
+}
+
+.blog-title {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-start;
+  align-items: flex-start; */
+  align-self: flex-start;
+  font-size: 20px;
+}
+
+.blog-description {
+  margin: 30px;
+  margin-top: 0;
+}
+
+.seperator {
+  width: 100%;
+}
